@@ -24,6 +24,7 @@ void los (int a, int b){
 int main(){
     int num;
     scanf("%d", &num);
+    num = num /2 + 1;
     los(num, 0);
 
 }
